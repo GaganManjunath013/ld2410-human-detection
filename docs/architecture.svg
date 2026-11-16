@@ -125,6 +125,6 @@
 
   <!-- ─── POWER NOTE ─── -->
   <rect x="40" y="420" width="740" height="36" rx="7" fill="#21262d" stroke="#30363d"/>
-  <text x="410" y="434" text-anchor="middle" font-size="9" fill="#8b949e">⚡ Power: Samsung EP-TA800 charger — 5V @ 3A via USB-C  |  All 3 sensors share Pi 3.3V rail (~300 mA total, within 500 mA limit)</text>
+  <text x="410" y="434" text-anchor="middle" font-size="9" fill="#8b949e">Power: 5V 3A USB-C supply  |  All 3 sensors share Pi 3.3V rail (~300 mA total, within 500 mA limit)</text>
   <text x="410" y="449" text-anchor="middle" font-size="9" fill="#6e7681">256000 baud  |  3.3V UART (no level shifter needed)  |  Binary frame protocol — parsed manually</text>
 </svg>
