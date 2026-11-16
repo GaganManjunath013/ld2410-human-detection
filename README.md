@@ -22,9 +22,9 @@ library; the only dependency is `pyserial`.
 
 ## Dashboard
 
-![Dashboard layout](docs/dashboard_preview.svg)
+![Dashboard](docs/dashboard.png)
 
-*Illustration of the dashboard layout with example values.*
+*The dashboard page served by `src/web_server.py`, shown here with sample readings.*
 
 The page polls `/output.json` every 500 ms and shows one card per sensor
 (presence, distance, moving and static energy) plus the estimated direction.
@@ -112,7 +112,8 @@ docs/
   hardware_setup.md  components, pinout and wiring
   uart_config.md     UART overlay configuration
   troubleshooting.md common problems and fixes
-  architecture.svg, dashboard_preview.svg
+  architecture.svg   system block diagram
+  dashboard.png      dashboard page with sample readings
 test_uart.py         checks that all three UARTs receive data
 setup.sh             one-time setup on the Pi
 requirements.txt
